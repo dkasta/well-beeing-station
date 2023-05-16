@@ -1,0 +1,87 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# STM32CubeIDE temporary files
+STM32CubeIDE/Debug
+STM32CubeIDE/Debug/*
+
+STM32CubeIDE/.settings
+STM32CubeIDE/.settings/*
+
+# VisualStudioCode temporary files
+VisualStudioCode/.pio
+VisualStudioCode/.vscode/.browse.c_cpp.db*
+VisualStudioCode/.vscode/c_cpp_properties.json
+VisualStudioCode/.vscode/launch.json
+VisualStudioCode/.vscode/ipch
+
+
+# LaTeX temporary files
+docs/*.aux
+docs/*.lof
+docs/*.log
+docs/*.lot
+docs/*.toc
+docs/*.fls
+docs/*.synctex.gz
+docs/*.pdf
+docs/*.fdb_latexmk
+*.aux
+*.lof
+*.log
+*.lot
+*.toc
+*.fls
+*.synctex.gz
+*.pdf
+*.fdb_latexmk
